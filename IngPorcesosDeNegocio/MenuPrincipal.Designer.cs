@@ -33,8 +33,6 @@
             this.button3Desplegar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button4Salir = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1Ingresar
@@ -84,33 +82,11 @@
             this.button4Salir.Text = "Salir";
             this.button4Salir.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(287, 160);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 5;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(383, 66);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 385);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.button4Salir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3Desplegar);
@@ -130,7 +106,5 @@
         private System.Windows.Forms.Button button3Desplegar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4Salir;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Button button1;
     }
 }
